@@ -46,10 +46,12 @@ body{
 ul li{
     margin: 5px;
     margin-right: 80px;
+    cursor: pointer;
 }
 ul li img{
     width: 25px;
     margin-right: 20px;
+    cursor: pointer;
  /* background-color: #fff; */
 }
 ul li span{
@@ -311,7 +313,7 @@ button{
    margin-left: 30px;
  }
 .announcements{
-    background-color: blueviolet;
+    background-color:rgb(89, 113, 156);
     grid-area: announcements;
     display: flex;
     flex-direction: column;
